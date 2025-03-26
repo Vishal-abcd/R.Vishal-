@@ -1,76 +1,312 @@
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio - R.Vishal</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #4CAF50;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    section {
-      margin: 20px;
-      padding: 20px;
-      background-color: white;
-      border-radius: 8px;
-    }
-    h2 {
-      color: #4CAF50;
-    }
-    a {
-      color: #007bff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      padding: 10px;
-      background-color: #333;
-      color: white;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal- Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #e63946;
+            color: black;
+        }
+        .header {
+            background-color: #a8eb12;
+            text-align: center;
+            padding: 30px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .sub-header {
+            text-align: center;
+            font-size: 18px;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .profile-img {
+            display: block;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 10px auto;
+            border: 3px solid #000;
+        }
+        .nav {
+            text-align: center;
+            padding: 15px;
+            background-color: #d90429;
+        }
+        .nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #e63946;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .resume-btn {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            padding: 12px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            width: 180px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: black;
+            color: white;
+            margin-top: 30px;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #e63946;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Vishal</h1>
-    <p>BCA Graduate | Football Player</p>
-  </header>
-  
-  <section>
-    <h2>About Me</h2>
-    <p>I'm a passionate football player who has participated in numerous tournaments. I love the sport and the challenges it brings, while also pursuing my career in the tech field.</p>
-  </section>
-  
-  <section>
-    <h2>Education</h2>
-    <p>Bachelor of Computer Applications (BCA)</p>
-  </section>
-  
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Python</li>
-      <li>Java</li>
-    </ul>
-  </section>
-  
-  <section>
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-  </section>
 
-  <footer>
-    <p>© 2025 R.Vishal</p>
-  </footer>
+    <div class="header">Vishal</div>
+    <div class="sub-header">Student | Programme Developer</div>
+    
+    <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+
+    <div class="nav">
+        <a href="#">About</a>
+        <a href="#">Education</a>
+        <a href="#">Skills</a>
+        <a href="#">Projects</a>
+        <a href="#">Resume</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Pursuing II YEAR OF BCA. MUSIC LOVER. PROGRAMME DEVELOPER.</p>
+    </div>
+
+    <div class="container">
+        <h2>Education</h2>
+        <p>II BCA</p>
+    </div>
+
+    <div class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Developing</li>
+            <li>Administration</li>
+            <li>Teaching</li>
+            <li>Handling Heavy Tasks</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Projects</h2>
+        <ul>
+            <li>Data Handler</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Resume</h2>
+        <a href="resume.pdf" class="resume-btn" download>Download CV</a>
+    </div>
+
+    <div class="container contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:balaji@example.com">Vishal@example.com</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/Vishal</a></p>
+        <p>GitHub: <a href="#">github.com/Vishal</a></p>
+    </div>
+
+    <div class="footer">© 2025 vishal</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #e63946;
+            color: black;
+        }
+        .header {
+            background-color: #a8eb12;
+            text-align: center;
+            padding: 30px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .sub-header {
+            text-align: center;
+            font-size: 18px;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .profile-img {
+            display: block;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 10px auto;
+            border: 3px solid #000;
+        }
+        .nav {
+            text-align: center;
+            padding: 15px;
+            background-color: #d90429;
+        }
+        .nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #e63946;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .resume-btn {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            padding: 12px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            width: 180px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: black;
+            color: white;
+            margin-top: 30px;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #e63946;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">Vishal</div>
+    <div class="sub-header">Student | Programme Developer</div>
+    
+    <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+
+    <div class="nav">
+        <a href="#">About</a>
+        <a href="#">Education</a>
+        <a href="#">Skills</a>
+        <a href="#">Projects</a>
+        <a href="#">Resume</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Pursuing II YEAR OF BCA. MUSIC LOVER. PROGRAMME DEVELOPER.</p>
+    </div>
+
+    <div class="container">
+        <h2>Education</h2>
+        <p>II BCA</p>
+    </div>
+
+    <div class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Developing</li>
+            <li>Administration</li>
+            <li>Teaching</li>
+            <li>Handling Heavy Tasks</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Projects</h2>
+        <ul>
+            <li>Data Handler</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Resume</h2>
+        <a href="resume.pdf" class="resume-btn" download>Download CV</a>
+    </div>
+
+    <div class="container contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:vishal@example.com">vishal@example.com</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/vishal</a></p>
+        <p>GitHub: <a href="#">github.com/vishal</a></p>
+    </div>
+
+    <div class="footer">© 2025 vishal</div>
+
 </body>
 </html>
