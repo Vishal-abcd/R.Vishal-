@@ -70,7 +70,7 @@
   </section>
 
   <footer>
-    <p>© 2024 Vishal</p>
+    <p>© 2025 Vishal</p>
   </footer>
 </body>
 </html>
